@@ -1,0 +1,33 @@
+.bath-solution {
+  background-image: url(/dist/img/kitchen-bath.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-family: $open-sans;
+  color: $white;
+  text-align: center;
+  padding: 120px 0 150px;
+  h1 {
+    text-transform: uppercase;
+    font-weight: 900;
+    line-height: 1.4;
+    font-size: 50px;
+    margin: 0;
+  }
+  span {
+    text-transform: capitalize;
+  }
+  button {
+    //prettier-ignore
+    background: linear-gradient(to right, #46c1ac, #35b6a2, #24aea1, #079d9c, #009b9a);
+    border: 0;
+    border-radius: 27px;
+    // letter-spacing: 1px;
+    margin-top: 25px;
+    padding: 10px 15px;
+    a {
+      text-decoration: none;
+      color: $white;
+      font-size: 14px;
+    }
+  }
+}

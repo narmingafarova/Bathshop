@@ -1,0 +1,28 @@
+.product-sales {
+  //   display: grid;
+  .products-shopping {
+    display: grid;
+    grid-template-columns: auto auto;
+    color: $white;
+    a {
+      text-decoration: none;
+    }
+    .lavatory-basins {
+      background-image: url(/dist/img/faucet-table.jpg);
+      p {
+        text-transform: uppercase;
+      }
+    }
+    .kitchen-bath {
+      background-image: url(/dist/img/kitchen-bath.jpg);
+      grid-column: 2/3 ;
+    }
+    .toilet-part {
+      background-image: url(/dist/img/toilet.jpg);
+      color: $black;
+    }
+    .toilet-faucet-part {
+      background-image: url(/dist/img/faucet.jpg);
+    }
+  }
+}

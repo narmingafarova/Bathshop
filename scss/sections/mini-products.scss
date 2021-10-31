@@ -1,0 +1,35 @@
+.mini-products {
+  display: flex;
+  padding: 50px 0 20px;
+  margin-bottom: 40px;
+  .products-lists {
+    display: flex;
+    justify-content: space-between;
+    .products-lists-item {
+      display: flex;
+      padding: 0 15px;
+      img {
+        margin-right: 15px;
+      }
+      .products-title {
+        a {
+          text-decoration: none;
+          font-family: $open-sans;
+          p {
+            font-size: 13px;
+            font-weight: 700;
+            color: $black;
+            margin: 3px 0 0;
+            &:hover {
+              color: $water-green;
+            }
+          }
+          span {
+            font-size: 10px;
+            color: $water-green;
+          }
+        }
+      }
+    }
+  }
+}

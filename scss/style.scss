@@ -1,0 +1,25 @@
+// Required
+@import "../node_modules/bootstrap/scss/functions";
+@import "../node_modules/bootstrap/scss/variables";
+@import "../node_modules/bootstrap/scss/mixins";
+
+// Optional
+@import "../node_modules/bootstrap/scss/reboot";
+@import "../node_modules/bootstrap/scss/grid";
+
+//Helpers
+@import "../scss/helpers/var.scss";
+@import "../scss/helpers/mixin.scss";
+
+//Sections
+@import "./sections/navbar.scss";
+@import "./sections/bath-solution.scss";
+@import "./sections/mini-products.scss";
+@import "./sections/product-sales.scss";
+
+// sass --watch ./scss/style.scss ./dist/css/style.css
+.container {
+  width: 100%;
+  margin: 0 auto;
+  max-width: 1200px;
+}
