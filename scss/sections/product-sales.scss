@@ -1,28 +1,66 @@
 .product-sales {
-  //   display: grid;
+  padding-bottom: 60px;
   .products-shopping {
     display: grid;
-    grid-template-columns: auto auto;
-    color: $white;
-    a {
-      text-decoration: none;
+    color: $black;
+    cursor: pointer;
+    padding: 0;
+    .image-description {
+      .textbox {
+      position: absolute;
+      top: 60px;
+      left: 30px;
+      right: auto;
+      }
+    }
+    div {
+      border-radius: 6px;
+      h2,
+      h3 {
+        font-family: $open-sans;
+        font-weight: 900;
+        line-height: 1.4;
+        font-size: 40px;
+      }
+      p {
+        margin-bottom: 3px;
+        font-family: $open-sans;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 1;
+      }
+      a {
+        text-decoration: none;
+        color: $black;
+        text-decoration: underline;
+      }
     }
     .lavatory-basins {
-      background-image: url(/dist/img/faucet-table.jpg);
       p {
         text-transform: uppercase;
       }
     }
     .kitchen-bath {
-      background-image: url(/dist/img/kitchen-bath.jpg);
-      grid-column: 2/3 ;
+      border-radius: 0;  
+      h2 {
+        font-size: 24px;
+        span {
+          font-size: 50px;
+          line-height: 52px;
+        }
+      }
     }
     .toilet-part {
-      background-image: url(/dist/img/toilet.jpg);
       color: $black;
+      a {
+        color: $black;
+      }
     }
     .toilet-faucet-part {
-      background-image: url(/dist/img/faucet.jpg);
+      padding: auto;
+    }
+    &:hover {
+      transition: all 0.5s;
     }
   }
 }
